@@ -1,0 +1,30 @@
+{
+  "name": "colibri",
+  "version": "1.0.0",
+  "description": "Colibri Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx truffle test",
+    "production": "npx truffle compile && cd client && npm run build production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bn": "^0.3.0",
+    "ganache-cli": "^6.12.2",
+    "sinon": "^11.1.2",
+    "truffle": "^5.4.13",
+    "truffle-plugin-verify": "^0.5.15"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.0"
+  }
+}
